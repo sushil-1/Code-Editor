@@ -21,8 +21,6 @@ For N = 3 the pattern will be
 3 3 2 2 1 1
 <br/>
 3 2 1
-<br/>
-Note: Instead of printing a new line print a "$" without quotes. After printing the total output, end of the line("$") is expected.
     </div>
     )
 };
