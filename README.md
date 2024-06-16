@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Code Editor Web App
 
-## Getting Started
+The Code Editor is a web application that provides a user-friendly interface for writing and running code snippets. It supports multiple programming languages and themes, leveraging the Monaco Editor for an enhanced coding experience.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Code Editing:** Utilizes Monaco Editor to provide a robust code editing experience.
+- **Theme Switching:** Toggle between light and dark themes for the editor.
+- **Language Selection:** Choose between JavaScript and TypeScript languages.
+- **Run and Submit:** Run and submit code with interactive buttons.
+- **Result Display:** Displays mock results and submission messages.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies Used
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- [Next.js](https://nextjs.org/): React framework for server-side rendering, routing, and more.
+- [React](https://reactjs.org/): JavaScript library for building user interfaces.
+- [Monaco Editor for React](https://github.com/suren-atoyan/monaco-react#readme) : Use with any React application without needing to use webpack (or rollup/parcel/etc) configuration files / plugins
+- [Monaco Editor](https://microsoft.github.io/monaco-editor/): A browser-based code editor from Microsoft.
+- [Tailwind CSS](https://tailwindcss.com/): Utility-first CSS framework for rapid UI development.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Installation
 
-## Learn More
+To get a local copy up and running, follow these steps:
 
-To learn more about Next.js, take a look at the following resources:
+1. **Clone the repository:**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   git clone https://github.com/sushil-1/Code-Editor
+   cd code-editor
+   ```
+2. **Install dependencies:**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+   ```bash
+   npm install
+   ```
+3. **Run the development server:**
+   
+   ```bash
+   npm run dev
+   ```
+ Open http://localhost:3000 to view the application in your browser.
 
-## Deploy on Vercel
+ ## Usage
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. **Open the application** in your browser and click on proceed to code editor button.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+2. **Select the programming language** from the dropdown menu (JavaScript or TypeScript).
+
+3. **Toggle the theme** using the "Toggle Theme" button.
+
+4. **Write your code** in the editor.
+
+5. **Run the code** by clicking the "RUN" button. The results will be displayed below the editor.
+
+6. **Submit the code** by clicking the "SUBMIT" button. A submission message will be displayed.
+
+
+## Deployment
+
+The project is deployed on Vercel. You can visit the live application [here](https://code-editor-khaki.vercel.app/).
+
+
