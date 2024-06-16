@@ -9,7 +9,7 @@ export default function Home() {
         Welcome to My Code Editor!
       </h1>
       <p className="font-semibold text-lg">
-        Build using next 14.2.4 and monaco-editor/react 4.6.0
+        Built using next 14.2.4 and monaco-editor/react 4.6.0
       </p>
       </div>
       <Link 
